@@ -6,25 +6,25 @@ const readMore = more.repeat(4001)
 
 // Owner
 global.owner = [
-['6282389924037', 'Pina美', true]
+['6283132749084', 'Maulana', true]
 ] 
 global.mods = []
 global.prems = []
 // Info
-global.nomorwa = '6282389924037'
-global.packname = 'Vynaa - MD by'
-global.author = '© Pina美'
-global.namebot = '​Vynaa - MD'
-global.wm = '© Vynaa By Pina美'
-global.stickpack = 'Vynaa - MD by'
-global.stickauth = '© Pina美'
+global.nomorwa = '6283132749084'
+global.packname = 'Xyna - MD by'
+global.author = '© LansModz'
+global.namebot = '​Xyna - MD'
+global.wm = '© Xyna By Lanz'
+global.stickpack = 'Xyna - MD by'
+global.stickauth = '© Lanz'
 // Link Sosmed
-global.sig = 'https://shoplinks.to/vyna-store'
-global.sgh = 'https://github.com/Xyroinee'
-global.sgc = 'https://chat.whatsapp.com/ICkXMmtEDsCKXF2pifFeeS'
+global.sig = 'https://instagram.com/lhns.ofc?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D'
+global.sgh = 'https://github.com/Lans-ofc'
+global.sgc = 'https://chat.whatsapp.com/DeRF3ZCBaEOAUYIsVzDMD6'
 // Donasi
-global.psaweria = 'https://shoplinks.to/vyna-store'
-global.ptrakterr = 'https://shoplinks.to/vyna-store'
+global.psaweria = 'https://saweria.co/Lans03'
+global.ptrakterr = 'https://lynk.id/na_offical'
 global.povo = '0823-8992-4037'
 // Info Wait
 global.wait = '_Sedang Di Proses, Mohon Tunggu_....'
