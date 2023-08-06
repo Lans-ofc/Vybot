@@ -6,7 +6,7 @@ let handler = m => m
 handler.all = async function (m) {
     let name = await conn.getName(m.sender) 
 	let pp = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
-	let fotonyu = 'https://telegra.ph/file/076077c79a8a794db8313.jpg'
+	let fotonyu = 'https://telegra.ph/file/bfa8b2267e5c5b38cd8a1.jpg'
 	try {
 		pp = await this.profilePictureUrl(m.sender, 'image')
 	} catch (e) {
@@ -23,7 +23,7 @@ handler.all = async function (m) {
         
 		// Ini untuk command crator/owner
 		global.kontak2 = [
-         [owner[0], await conn.getName(owner[0] + '6282389924037@s.whatsapp.net'), 'Pina美', 'https://shoplinks.to/vyna-store', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
+         [owner[0], await conn.getName(owner[0] + '6283132749084@s.whatsapp.net'), 'LansOfc/Maul', 'https://lynk.id/na_offical', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
         ]
         
 		// ucapan ini mah
@@ -39,19 +39,19 @@ handler.all = async function (m) {
 				//isForwarded: true, // ini biar ada tulisannya diteruskan berkali-kali, jika ingin di hilangkan ganti true menjadi false
 				externalAdReply: { // Bagian ini sesuka kalian berkreasi :'v
                     showAdAttribution: true,
-					title: "Vynaa - Multidevice",
-					body: "© Pina美",
+					title: "Xyba - Multidevice",
+					body: "© LansOfc/Maul",
 					mediaUrl: sgc,
 					description: '',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(fotonyu)).buffer(),
-					sourceUrl: "https://youtube.com/@VynaaChan",					
+					sourceUrl: "https://lynk.id/na_offical",					
 				}
 			}
 		}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            title: 'Clara - MD',
+            title: 'Xyna - MD',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sig
